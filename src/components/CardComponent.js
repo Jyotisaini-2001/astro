@@ -13,7 +13,7 @@ export function CardComponent({ card }) {
   return (
     <>
       <Card className="shadow-md max-w-md w-full">
-        <div className="flex items-center gap-6 w-full">
+        <div className="flex items-start gap-6 w-full">
           <img
             alt={card.name}
             height="96"
@@ -23,7 +23,7 @@ export function CardComponent({ card }) {
           />
 
           <div className="w-3/4 flex justify-between">
-            <div>
+            <div className="flex flex-wrap">
               <div className="flex items-center gap-4">
                 <h5 className="mb-1 text-xl font-medium text-darkBlue dark:text-white">
                   {card.name}
@@ -38,13 +38,13 @@ export function CardComponent({ card }) {
                 </div>
               </div>
               <div className="space-y-2">
-                <p className="text-base text-darkGrey dark:text-gray-400 leading-4">
+                <p className="text-sm md:text-base text-darkGrey dark:text-gray-400 leading-4">
                   {card.specialties}
                 </p>
-                <p className="text-base text-darkGrey dark:text-gray-400 leading-4">
+                <p className="text-sm md:text-base text-darkGrey dark:text-gray-400 leading-4">
                   {card.languages}
                 </p>
-                <p className="text-base text-darkGrey dark:text-gray-400 leading-4">
+                <p className="text-sm md:text-base text-darkGrey dark:text-gray-400 leading-4">
                   {card.experience}
                 </p>
                 <div className="flex items-center space-x-2">
