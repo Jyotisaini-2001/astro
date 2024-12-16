@@ -64,6 +64,3 @@ This project uses **Tailwind CSS** and **Flowbite** UI framework for styling and
 - **Cards Layout**: Each card displays information such as ratings, price, specialties, and experience. It also has a button to trigger the chat modal.
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
